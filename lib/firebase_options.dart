@@ -14,41 +14,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR_WEB_API_KEY',
-    appId: 'YOUR_WEB_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    apiKey: "AIzaSyC8ymDIX-3jH7KLTOaa5a8koKeM_rmU5jc",
+    authDomain: "fir-simplechatapp-5745a.firebaseapp.com",
+    projectId: "fir-simplechatapp-5745a",
+    storageBucket: "fir-simplechatapp-5745a.firebasestorage.app",
+    messagingSenderId: "782743475584",
+    appId: "1:782743475584:web:796db471d323748c209d65",
+    measurementId: "G-CBSHX50EWW"
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
+    apiKey: 'AIzaSyDHaAMwlwrvu0H_N5hyy15MdzX0vj61Fwc',
+    appId: '1:782743475584:android:74d0c6e6b13aa5d7209d65',
+    messagingSenderId: '782743475584',
+    projectId: 'fir-simplechatapp-5745a',
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: 'YOUR_IOS_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    iosBundleId: 'com.example.firebaseChatApp',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'YOUR_MACOS_API_KEY',
-    appId: 'YOUR_MACOS_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    iosBundleId: 'com.example.firebaseChatApp',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'YOUR_WINDOWS_API_KEY',
-    appId: 'YOUR_WINDOWS_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-  );
 }
